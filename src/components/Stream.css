@@ -1,0 +1,38 @@
+
+.reactplayer{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 75% !important;
+    height: 90% !important;
+    background-color: #06191D;
+  }
+
+  .player-wrapper{
+    
+    display:block !important;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .reactplayer{
+        width: 100% !important;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .reactplayer{
+        width: 100% !important;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .reactplayer{
+        width: 90% !important;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .reactplayer{
+        width: 80% !important;
+    }
+  }
